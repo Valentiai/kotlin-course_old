@@ -5,7 +5,7 @@ fun task1(text: String): String {
     if ("невозможно" in newtext) {
         newtext = newtext.replace("невозможно", "совершенно точно возможно, просто требует времени")
     }
-    if (text.startsWith("Kot")) {
+    if (text.startsWith("Я не уверен")) {
         newtext = newtext+", но моя интуиция говорит об обратном"
     }
     if ("катастрофа" in newtext) {
